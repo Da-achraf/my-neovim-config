@@ -6,11 +6,12 @@ function ColorMyPencil(color)
     --color = color or 'duskfox'
     --color = color or 'nordfox'
     --color = color or 'nightfox'
+
     --color = color or 'terafox'
-    --color = color or 'rose-pine'
+    color = color or 'rose-pine'
     --color = color or 'catppuccin'
-    color = color or 'kanagawa-wave'
-    
+    --color = color or 'kanagawa-wave'
+    --
     vim.cmd.colorscheme(color)
 
 	vim.api.nvim_set_hl(0, "Normal", { bg = 'none' })

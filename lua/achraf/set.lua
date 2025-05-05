@@ -14,7 +14,7 @@ vim.opt.wrap = true
 
 vim.opt.swapfile = false
 vim.opt.backup = false
-vim.opt.undodir = os.getenv("UserProfile") .. "\\AppData\\Local\\nvim-data\\undo"
+--vim.opt.undodir = os.getenv("UserProfile") .. "\\AppData\\Local\\nvim-data\\undo"
 vim.opt.undofile = true
 
 vim.opt.hlsearch = false

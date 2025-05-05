@@ -20,10 +20,7 @@ require('mason-lspconfig').setup({
         'docker_compose_language_service',
         'dockerls',
         'jsonls',
-        'nginx_language_server',
         'cssls',
-        'sqlls',
-        'terraformls',
         'ts_ls',
     },
   handlers = {
